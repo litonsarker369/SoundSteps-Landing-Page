@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundSteps - Help Your Child Find Their Voice | Early Access</title>
+    <meta name="description" content="SoundSteps is a parent-led speech practice app designed to support young children with speech development. Join our Early Access programme to help shape the final version of the app.">
+    <meta name="keywords" content="speech therapy, speech development, children speech, parent-led speech practice, speech app, early access">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://soundsteps.co">
+    
+    <meta property="og:title" content="SoundSteps - Help Your Child Find Their Voice">
+    <meta property="og:description" content="A calm, supportive way to practise speech at home. Join our Early Access programme.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/og-image.svg">
+    
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36'%3E%3Ccircle cx='18' cy='18' r='16' fill='%232D7D6F'/%3E%3Cpath d='M12 14C12 14 14 12 18 12C22 12 24 14 24 14' stroke='white' stroke-width='2.5' stroke-linecap='round'/%3E%3Cpath d='M12 22C12 22 14 20 18 20C22 20 24 22 24 22' stroke='white' stroke-width='2.5' stroke-linecap='round'/%3E%3Ccircle cx='13' cy='16' r='1.5' fill='white'/%3E%3Ccircle cx='23' cy='16' r='1.5' fill='white'/%3E%3C/svg%3E">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="#" class="logo">
+                <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="18" cy="18" r="16" fill="#2D7D6F"/>
+                    <path d="M12 14C12 14 14 12 18 12C22 12 24 14 24 14" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                    <path d="M12 22C12 22 14 20 18 20C22 20 24 22 24 22" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                    <circle cx="13" cy="16" r="1.5" fill="white"/>
+                    <circle cx="23" cy="16" r="1.5" fill="white"/>
+                </svg>
+                SoundSteps
+            </a>
+            <a href="#signup" class="btn btn-primary">Join Early Access</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="decoration-circle decoration-1"></div>
+        <div class="decoration-circle decoration-2"></div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="stat-badge">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                        <path d="M2 17l10 5 10-5"/>
+                        <path d="M2 12l10 5 10-5"/>
+                    </svg>
+                    Early Access Programme
+                </div>
+                <h1>Help your child <span>find their voice</span></h1>
+                <p class="hero-text">SoundSteps is a calm, supportive speech practice app designed to help parents guide their children through daily speech exercises at home.</p>
+                <a href="#signup" class="btn btn-primary">
+                    Join Early Access
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-illustration">
+                    <svg viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Background circles -->
+                        <circle cx="250" cy="250" r="220" fill="url(#heroGradient1)"/>
+                        <circle cx="250" cy="250" r="170" fill="url(#heroGradient2)"/>
+                        
+                        <!-- Main character - child -->
+                        <circle cx="200" cy="220" r="60" fill="#FFD9B3"/>
+                        <circle cx="200" cy="210" r="55" fill="#FFECD2"/>
+                        
+                        <!-- Hair -->
+                        <ellipse cx="200" cy="168" rx="40" ry="25" fill="#8B6914"/>
+                        <circle cx="165" cy="175" r="15" fill="#8B6914"/>
+                        <circle cx="235" cy="175" r="15" fill="#8B6914"/>
+                        
+                        <!-- Eyes -->
+                        <circle cx="180" cy="215" r="6" fill="#2C3E50"/>
+                        <circle cx="220" cy="215" r="6" fill="#2C3E50"/>
+                        <circle cx="182" cy="213" r="2" fill="white"/>
+                        <circle cx="222" cy="213" r="2" fill="white"/>
+                        
+                        <!-- Smile -->
+                        <path d="M185 235Q200 250 215 235" stroke="#E57373" stroke-width="3" stroke-linecap="round" fill="none"/>
+                        
+                        <!-- Cheeks -->
+                        <circle cx="165" cy="230" r="8" fill="#FFB6C1" opacity="0.6"/>
+                        <circle cx="235" cy="230" r="8" fill="#FFB6C1" opacity="0.6"/>
+                        
+                        <!-- Body/Shirt -->
+                        <path d="M150 280Q200 260 250 280L250 350Q200 360 150 350Z" fill="#2D7D6F"/>
+                        
+                        <!-- Speech bubble -->
+                        <path d="M270 120Q270 80 310 80L380 80Q420 80 420 120L420 180Q420 220 380 220L340 220L310 260L310 220Q270 220 270 180Z" fill="white" stroke="#E8EBEF" stroke-width="2"/>
+                        
+                        <!-- Sound waves in speech bubble -->
+                        <path d="M300 130Q320 150 300 170" stroke="#2D7D6F" stroke-width="3" stroke-linecap="round" fill="none"/>
+                        <path d="M320 120Q350 150 320 180" stroke="#2D7D6F" stroke-width="3" stroke-linecap="round" fill="none"/>
+                        <path d="M340 110Q380 150 340 190" stroke="#2D7D6F" stroke-width="3" stroke-linecap="round" fill="none"/>
+                        
+                        <!-- Decorative elements -->
+                        <circle cx="380" cy="280" r="20" fill="#F5A962" opacity="0.8"/>
+                        <circle cx="140" cy="320" r="15" fill="#4AA89B" opacity="0.6"/>
+                        <circle cx="400" cy="350" r="25" fill="#2D7D6F" opacity="0.3"/>
+                        
+                        <!-- Stars/sparkles -->
+                        <path d="M100 100L105 115L120 120L105 125L100 140L95 125L80 120L95 115Z" fill="#F5A962"/>
+                        <path d="M420 60L423 70L433 73L423 76L420 86L417 76L407 73L417 70Z" fill="#4AA89B"/>
+                        
+                        <!-- Gradients -->
+                        <defs>
+                            <radialGradient id="heroGradient1" cx="0%" cy="0%" r="100%">
+                                <stop offset="0%" stop-color="#F5A962" stop-opacity="0.2"/>
+                                <stop offset="100%" stop-color="#2D7D6F" stop-opacity="0.05"/>
+                            </radialGradient>
+                            <radialGradient id="heroGradient2" cx="0%" cy="0%" r="100%">
+                                <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.8"/>
+                                <stop offset="100%" stop-color="#FDFCFA" stop-opacity="0"/>
+                            </radialGradient>
+                        </defs>
+                    </svg>
+                </div>
+                
+                <!-- Floating elements -->
+                <div class="floating-element floating-element-1">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+                        <rect x="2" y="6" width="20" height="14" rx="4" fill="#48B382"/>
+                        <path d="M8 12L11 15L16 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="floating-element floating-element-2">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+                        <circle cx="12" cy="12" r="10" fill="#F5A962"/>
+                        <path d="M8 14s1.5 2 4 2 4-2 4-2" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        <circle cx="9" cy="9" r="1" fill="white"/>
+                        <circle cx="15" cy="9" r="1" fill="white"/>
+                    </svg>
+                </div>
+                <div class="floating-element floating-element-3">
+                    <svg width="36" height="36" viewBox="0 0 24 24" fill="none">
+                        <path d="M12 2L15 8L22 9L17 14L18 21L12 18L6 21L7 14L2 9L9 8L12 2Z" fill="#4AA89B" opacity="0.8"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="problem">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>The challenge many parents face</h2>
+                <p>Speech development is important, but getting the right support shouldn't be so difficult.</p>
+            </div>
+            <div class="problem-cards">
+                <div class="problem-card fade-in">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12 6 12 12 16 14"/>
+                        </svg>
+                    </div>
+                    <div class="stat-number">18+</div>
+                    <h3>Long wait times for NHS support</h3>
+                    <p>Many families face incredibly long waits for speech and language therapy through the NHS, leaving parents feeling helpless.</p>
+                </div>
+                <div class="problem-card fade-in">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                            <path d="M8 9h8M8 13h6" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Unsure how to help at home</h3>
+                    <p>Parents want to support their children but often don't know what exercises to do or how to make practice effective.</p>
+                </div>
+                <div class="problem-card fade-in">
+                    <div class="icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                            <line x1="3" y1="9" x2="21" y2="9"/>
+                            <line x1="9" y1="21" x2="9" y2="9"/>
+                            <circle cx="15" cy="15" r="2"/>
+                        </svg>
+                    </div>
+                    <h3>Lack of structured tools</h3>
+                    <p>There are few affordable, easy-to-use tools that provide daily structured speech practice for families.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="approach">
+        <div class="container">
+            <div class="approach-content">
+                <div class="approach-visual fade-in-left">
+                    <svg viewBox="0 0 500 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Phone frame -->
+                        <rect x="80" y="40" width="340" height="360" rx="32" fill="#FFFFFF" stroke="#E8EBEF" stroke-width="2"/>
+                        <rect x="90" y="50" width="320" height="340" rx="24" fill="#FDFCFA"/>
+                        
+                        <!-- App header -->
+                        <rect x="90" y="50" width="320" height="80" rx="24" fill="url(#appHeader)"/>
+                        <circle cx="140" cy="90" r="24" fill="#2D7D6F"/>
+                        <path d="M130 90C130 90 135 82 140 82C145 82 150 90 150 90" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M135 98C135 98 138 104 140 104C142 104 145 98 145 98" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        <text x="175" y="96" font-family="Outfit" font-size="16" font-weight="600" fill="white">SoundSteps</text>
+                        
+                        <!-- Sound card 1 -->
+                        <rect x="110" y="150" width="280" height="60" rx="12" fill="#FFFFFF" stroke="#E8EBEF"/>
+                        <circle cx="150" cy="180" r="20" fill="#2D7D6F" fill-opacity="0.1"/>
+                        <path d="M145 172V188M140 180H160" stroke="#2D7D6F" stroke-width="2" stroke-linecap="round"/>
+                        <text x="185" y="178" font-family="DM Sans" font-size="14" fill="#2C3E50" font-weight="500">Sound: "S"</text>
+                        <text x="185" y="196" font-family="DM Sans" font-size="12" fill="#8A9AAA">Tap to play</text>
+                        
+                        <!-- Sound card 2 -->
+                        <rect x="110" y="220" width="280" height="60" rx="12" fill="#FFFFFF" stroke="#E8EBEF"/>
+                        <circle cx="150" cy="250" r="20" fill="#F5A962" fill-opacity="0.2"/>
+                        <path d="M140 250C140 250 145 242 150 242C155 242 160 250 160 250" stroke="#F5A962" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M143 258C143 258 147 264 150 264C153 264 157 258 157 258" stroke="#F5A962" stroke-width="2" stroke-linecap="round"/>
+                        <text x="185" y="248" font-family="DM Sans" font-size="14" fill="#2C3E50" font-weight="500">Sound: "TH"</text>
+                        <text x="185" y="266" font-family="DM Sans" font-size="12" fill="#8A9AAA">Tap to play</text>
+                        
+                        <!-- Progress bar -->
+                        <rect x="110" y="310" width="280" height="8" rx="4" fill="#E8EBEF"/>
+                        <rect x="110" y="310" width="180" height="8" rx="4" fill="url(#progressGradient)"/>
+                        
+                        <!-- Button -->
+                        <rect x="130" y="350" width="240" height="44" rx="12" fill="#2D7D6F"/>
+                        <text x="250" y="378" font-family="DM Sans" font-size="15" font-weight="600" fill="white" text-anchor="middle">Continue Practice</text>
+                        
+                        <!-- Decorative sound waves -->
+                        <path d="M420 100Q440 130 420 160" stroke="#4AA89B" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+                        <path d="M435 90Q465 130 435 170" stroke="#4AA89B" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
+                        
+                        <defs>
+                            <linearGradient id="appHeader" x1="90" y1="50" x2="410" y2="130" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#2D7D6F"/>
+                                <stop offset="1" stop-color="#4AA89B"/>
+                            </linearGradient>
+                            <linearGradient id="progressGradient" x1="110" y1="310" x2="290" y2="310" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#2D7D6F"/>
+                                <stop offset="1" stop-color="#48B382"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <div class="approach-text fade-in-right">
+                    <h2>A calm, supportive way to practise speech at home</h2>
+                    <p>SoundSteps gives you simple, structured daily exercises that fit easily into your routine. No pressure, just gentle encouragement and clear progress tracking.</p>
+                    <ul class="benefits-list">
+                        <li>
+                            <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
+                            <span>Simple daily exercises designed by speech specialists</span>
+                        </li>
+                        <li>
+                            <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
+                            <span>Track progress with gentle, encouraging feedback</span>
+                        </li>
+                        <li>
+                            <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
+                            <span>No waiting rooms or appointments - practice anytime</span>
+                        </li>
+                        <li>
+                            <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span>
+                            <span>Built for parents, regardless of experience</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>How SoundSteps works</h2>
+                <p>Five simple steps to support your child's speech practice</p>
+            </div>
+            <div class="steps-container">
+                <div class="steps-line"></div>
+                <div class="step fade-in">
+                    <span class="step-number">1</span>
+                    <div class="step-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+                            <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                        </svg>
+                    </div>
+                    <h3>Listen</h3>
+                    <p>Play a clear audio clip of the target sound</p>
+                </div>
+                <div class="step fade-in">
+                    <span class="step-number">2</span>
+                    <div class="step-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+                            <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+                            <line x1="12" y1="19" x2="12" y2="23"/>
+                            <line x1="8" y1="23" x2="16" y2="23"/>
+                        </svg>
+                    </div>
+                    <h3>Repeat</h3>
+                    <p>Your child tries saying the sound themselves</p>
+                </div>
+                <div class="step fade-in">
+                    <span class="step-number">3</span>
+                    <div class="step-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                        </svg>
+                    </div>
+                    <h3>Encourage</h3>
+                    <p>Use positive prompts to build confidence</p>
+                </div>
+                <div class="step fade-in">
+                    <span class="step-number">4</span>
+                    <div class="step-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <circle cx="12" cy="12" r="3"/>
+                        </svg>
+                    </div>
+                    <h3>Record</h3>
+                    <p>Save recordings to track progress over time</p>
+                </div>
+                <div class="step fade-in">
+                    <span class="step-number">5</span>
+                    <div class="step-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="18" y1="20" x2="18" y2="10"/>
+                            <line x1="12" y1="20" x2="12" y2="4"/>
+                            <line x1="6" y1="20" x2="6" y2="14"/>
+                        </svg>
+                    </div>
+                    <h3>Progress</h3>
+                    <p>See gentle suggestions for next steps</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="early-access" id="signup">
+        <div class="container">
+            <div class="signup-container">
+                <div class="signup-text fade-in-left">
+                    <h2>Join our Early Access programme</h2>
+                    <p>Be among the first families to try SoundSteps and help shape the final product.</p>
+                    <ul class="signup-benefits">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            <span>Priority access when we launch</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            <span>Direct input on features and improvements</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            <span>Special thank you for early supporters</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            <span>No commitment - join the community</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="signup-form fade-in-right">
+                    <form id="earlyAccessForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Parent / Carer Name <span class="required">*</span></label>
+                                <input type="text" id="name" name="name" placeholder="Your name" required>
+                                <span class="form-error">Please enter your name</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email <span class="required">*</span></label>
+                                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                                <span class="form-error">Please enter a valid email</span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="location">Location <span class="required">*</span></label>
+                                <input type="text" id="location" name="location" placeholder="City or region" required>
+                                <span class="form-error">Please enter your location</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="hearAbout">How did you hear about us?</label>
+                                <select id="hearAbout" name="hearAbout">
+                                    <option value="">Select an option</option>
+                                    <option value="social">Social media</option>
+                                    <option value="search">Search engine</option>
+                                    <option value="friend">Friend or family</option>
+                                    <option value="professional">Healthcare professional</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="childAge">Child's Age Range</label>
+                                <select id="childAge" name="childAge">
+                                    <option value="">Select age range</option>
+                                    <option value="0-2">0-2 years</option>
+                                    <option value="3-4">3-4 years</option>
+                                    <option value="5-6">5-6 years</option>
+                                    <option value="7+">7+ years</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="appFor">Who is the app for?</label>
+                                <select id="appFor" name="appFor">
+                                    <option value="">Select an option</option>
+                                    <option value="child">My child</option>
+                                    <option value="grandchild">My grandchild</option>
+                                    <option value="student">My student</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Current Support Status</label>
+                            <div class="checkbox-group">
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="supportStatus" value="waiting">
+                                    <span>Waiting for NHS support</span>
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="supportStatus" value="receiving-nhs">
+                                    <span>Receiving NHS support</span>
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="supportStatus" value="receiving-private">
+                                    <span>Receiving private support</span>
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="supportStatus" value="none">
+                                    <span>Not currently receiving support</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Would you be open to giving feedback?</label>
+                            <div class="checkbox-group">
+                                <label class="checkbox-item">
+                                    <input type="radio" name="feedback" value="yes" checked>
+                                    <span>Yes, I'd love to help</span>
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="radio" name="feedback" value="no">
+                                    <span>Not at the moment</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="concerns">What concerns you most about your child's speech development?</label>
+                            <textarea id="concerns" name="concerns" placeholder="Optional - share any specific concerns..."></textarea>
+                        </div>
+                        <div class="form-submit">
+                            <button type="submit" class="btn btn-primary">
+                                Join Early Access
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
+                    <div class="form-success" id="formSuccess">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                            <polyline points="22 4 12 14.01 9 11.01"/>
+                        </svg>
+                        <h3>You're on the list!</h3>
+                        <p>Thank you for joining our Early Access programme. We'll be in touch soon with next steps.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mission">
+        <div class="container">
+            <div class="mission-content fade-in">
+                <h2>Our Mission</h2>
+                <p>SoundSteps was created because we believe every child deserves the support they need to find their voice. We're building this app because we know how hard it can be for families to access speech support - and because we believe parents are the best advocates for their children.</p>
+                <p>By joining Early Access, you're not just getting early access to an app. You're becoming part of a community that's shaping how families access speech support. Your insights will directly influence the final product.</p>
+                <a href="#signup" class="btn btn-secondary">Join Us</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-info">
+                <a href="#" class="logo">
+                    <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" width="28" height="28">
+                        <circle cx="18" cy="18" r="16" fill="#2D7D6F"/>
+                        <path d="M12 14C12 14 14 12 18 12C22 12 24 14 24 14" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                        <path d="M12 22C12 22 14 20 18 20C22 20 24 22 24 22" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                        <circle cx="13" cy="16" r="1.5" fill="white"/>
+                        <circle cx="23" cy="16" r="1.5" fill="white"/>
+                    </svg>
+                    SoundSteps
+                </a>
+                <p>Helping children find their voice</p>
+            </div>
+            <div class="footer-contact">
+                <p>Questions? Get in touch:</p>
+                <a href="mailto:hello@soundsteps.co">hello@soundsteps.co</a>
+            </div>
+            <div class="footer-privacy">
+                <p>We respect your privacy. Your data will never be shared with third parties.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
